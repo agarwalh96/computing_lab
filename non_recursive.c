@@ -223,8 +223,10 @@ int main(int ac, char *av[])
     for (i = 0, nodeptr = tree.nodelist; i < tree.num_nodes; i++, nodeptr++)
         printf("%d %d %d %d\n", i, nodeptr->data, nodeptr->left, nodeptr->right);
     
+	/*
     printf("Printing preorder\n");
     preorder_iterative(&tree, tree.root);
+	*/
     
     printf("Printing inorder\n");
     inorder_iterative(&tree, tree.root);

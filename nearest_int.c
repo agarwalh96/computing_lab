@@ -54,6 +54,7 @@ int abs_diff(int a, int b)
 
 int nearest_search(TREE *tree, int root, int target, int nearest)
 {
+	printf("function called with root value : %d\n",tree->nodelist[root].data);
 	if(root == -1)
 		return -1;
 	
@@ -105,7 +106,7 @@ int main(int ac, char *av[])
     //srandom((int) time(NULL));
     for (i = 0; i < N; i++)
     {
-        insert(&tree, &(tree.root), random() % 1000);
+        insert(&tree, &(tree.root), rand() % 1000);
         //printf("free_list index : %d\n",tree.free_list);
     }
 

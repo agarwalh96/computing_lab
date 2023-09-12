@@ -1,0 +1,2 @@
+The next result shows that every operator on V has a nice description
+in terms of its singular values and two orthonormal bases of V. q,H

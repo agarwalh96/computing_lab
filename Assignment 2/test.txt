@@ -1,0 +1,9 @@
+The main idea behind attention is that instead of producing a single hidden state for the input
+sequence, the encoder outputs a hidden state at each step which the decoder can access.
+However, using all states at the same time creates a huge input for the decoder, so some
+mechanism is needed to prioritize which states to use. This is where attention comes in: it lets
+the decoder assign a weight or “pay attention” to the specific states in the past (and the context
+length can be very long - several thousands words in the past for recent models like GPT or
+reformers) which are most relevant for producing the next element in the output sequence. The
+best part is that this process is differentiable, so the process of “paying attention” can be learned
+during training

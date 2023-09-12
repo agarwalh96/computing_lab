@@ -2,18 +2,10 @@
 
 Welcome to the repository for the Computing Lab assignments completed during the first semester of the Master's program in Computer Science. This repository serves as a comprehensive archive of the code and associated materials developed for these lab exercises.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Lab Assignments](#lab-assignments)
-- [Directory Structure](#directory-structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
 
 The repository documents a range of programming tasks and exercises, covering diverse topics from data structures and algorithms.
+
+# Note: Not all code is written by me. Some code has been provided by faculty, in particular the library files.
 
 ## Contributing
 
